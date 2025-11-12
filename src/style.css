@@ -1,5 +1,68 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+.container{
+    padding:12vh ;
 }
+
+
+.card{
+    background-color: #fff;
+    width: 450px;
+    height: 530px;  
+    border: 2px solid black;    
+}
+
+.heart, .diamond{
+    color: red;
+}
+
+.spade, .club{
+    color: black;
+}
+
+h1{
+    font-size: 100px;
+}
+
+.figuras{
+    font-size:130px;
+    
+}
+
+.top-left{
+    position: absolute;
+    left: 1em;
+    margin-top: -35px
+}
+
+/* .middle-left{
+    position: absolute;
+    top: 11.5em;
+    left: 11.7em;
+    
+} */
+ .middle-left{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.middle-left h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+.bottom-right {
+  position: absolute;
+  right: 1em;
+  bottom: 0.5em;
+  transform: rotate(180deg) translateY(-40px);
+
+}
+
+
+
+
+
